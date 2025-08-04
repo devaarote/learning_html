@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <fieldset>
         <legend>Contact form</legend>
         <form>
             <lable>First Name</lable>
-            <input type="text" placeholder="Enter First Name"/><br><br>
-             <lable>Last Name</lable>
-            <input type="text" placeholder="Enter Last Name"/><br><br>
+            <input type="text" placeholder="Enter First Name" /><br><br>
+            <lable>Last Name</lable>
+            <input type="text" placeholder="Enter Last Name" /><br><br>
             <lable>Phone Number</lable>
             <input type="number" /><br><br>
             <lable>Email</lable>
             <input type="email" /><br><br>
-            <lable>DOB</lable>
-            <input type="date" /><br><br>
             <lable>Password</lable>
             <input type="password" placeholder="Enter password" /><br><br>
+            <lable>DOB</lable>
+            <input type="date" /><br><br>
             <lable>Month</lable>
             <input type="month" /><br><br>
             <lable>Time</lable>
@@ -29,8 +31,39 @@
             <input type="week" /><br><br>
             <lable>Time</lable>
             <input type="datetime-local" /><br><br>
+            <label>Choose City</label><br>
+            <input type="checkbox" checked />Mumbai
+            <input type="checkbox" />pune
+            <input type="checkbox" />Nagar
+            <input type="checkbox" />Jalgoan
+            <br>
+            <label>Select Gender</label><br>
+            <input type="radio" />male
+            <input type="radio" />Female
+            <input type="radio" />other
+            <br>
+
+            <label>Select fav sweet dish</label><br>
+            <select>
+                <option>Choose.......</option>
+                <option>gulab jamoon</option>
+                <option>Rasgulla</option>
+                <option>Bundi ladoo</option>
+                <option>Rasmalai</option>
+            </select>
+            <label>Upload image</label><br>
+            <input type="file" multiple /><br>
+
+            <label>choose colour</label><br>
+            <input type="color"><br>
+            <label>choose Range</label><br>
+            <input type="range"><br>
+            <textarea rows="5" cols="20"></textarea><br>
+
+            <input type="submit" /><br>
 
         </form>
     </fieldset>
 </body>
+
 </html>
